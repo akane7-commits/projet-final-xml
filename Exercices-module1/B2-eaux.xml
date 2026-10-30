@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eaux>
+    <bouteilles>
+        <bouteille>
+            <marque>kirène</marque>
+            <contenance>1L</contenance>
+            <code-barres>123456</code-barres>
+            <ph>7,1</ph>
+            <ions concentration='5mg/l'></ions>
+            
+        </bouteille>
+        <bouteille>
+            <marque>casamançaise</marque>
+            <contenance>0,5L</contenance>
+            <code-barres>678910</code-barres>
+            <ph>7,0</ph>
+            <ions concentration='4,5mg/l'></ions>
+        </bouteille>
+        <bouteille>
+            <marque>si belle</marque>
+            <contenance>2L</contenance>
+            <code-barres>2345678</code-barres>
+            <ph>7,2</ph>
+            <ions concentration='6mg/l'></ions>
+            <matiere>fer</matiere>
+
+        </bouteille>
+    </bouteilles>
+
+
+</eaux>

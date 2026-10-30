@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Facture ref='FA-2026-0042' devise='EUR'
+    datecreation='2026-10-05' dateexp='2026-11-04'>
+    <Vendeur>Teranga Informatique</Vendeur>
+    <Client>Pressing Dieuf-Dieul &amp;Fils </Client>
+    <Ligne1 quantite='2' prixunitaire='8.50'>Clé USB </Ligne1>
+    <Ligne2 quantite='1' prix='12.00'>Cable HDMI( longueur  &lt;2m)</Ligne2>
+
+
+</Facture>

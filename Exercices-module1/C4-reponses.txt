@@ -1,0 +1,4 @@
+1/les trois erreurs sont
+-un attribut peut contenir &(caractères réservés)
+-les guillemets sont facultatifs(un attribut est toujours entre-guillemets,nom unique)
+-la correction de la derniere ligne du code est fausse(xml est sensible à la casse)

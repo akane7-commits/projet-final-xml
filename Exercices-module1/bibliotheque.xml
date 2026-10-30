@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliotheque>
+    <livres>
+        <livre>
+            <titre>Une Si Longue Letre</titre>
+            <auteur>Mariama ba</auteur>
+            <annee_publication>2010</annee_publication>
+            <genre>roman</genre>
+        </livre>
+
+        <livre>
+            <titre>Une Vie de Boy</titre>
+            <auteur>Ferdinand Oyono</auteur>
+            <annee_publication>1999</annee_publication>
+            <genre>roman</genre>
+
+    
+
+
+        </livre>
+
+
+    </livres>
+
+</bibliotheque>

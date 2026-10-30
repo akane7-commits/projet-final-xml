@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cantine>
+<plat titre="Le 'thiéboudienne' de l ISEP">Riz au poisson &amp; légumes</plat>
+<regle>Prix &lt; 1500 FCFA</regle>
+<script>if (stock &amp; 5 &amp;&amp; jour == "lundi") { alerte(); }</script>
+</cantine>

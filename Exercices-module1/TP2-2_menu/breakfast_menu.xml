@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<breakfast_menu
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="menu.xsd">
+
+    <food>
+        <name>Pancakes au miel</name>
+        <category>sweet</category>
+        <price unit="EUR">5.90</price>
+        <description>Pancakes accompagnés de miel.</description>
+        <calories>450</calories>
+    </food>
+
+    <food>
+        <name>Omelette au fromage</name>
+        <category>salty</category>
+        <price unit="EUR">7.50</price>
+        <description>Omelette avec fromage et pain grillé.</description>
+        <calories>650</calories>
+    </food>
+
+</breakfast_menu>

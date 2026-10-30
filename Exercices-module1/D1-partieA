@@ -1,0 +1,9 @@
+date-echeance LEGAL
+3eme-annee    ILLEGAL
+ prix HT      ILLEGAL
+ _note         LEGAL
+  nom.complet  LEGAL
+élève          LEGAL
+ a+b           LEGAL MAIS A EVITER
+xml-donnees     ILLEGAL
+ -tiret Étudiant  ILLEGAL

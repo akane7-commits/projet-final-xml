@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conference>
+    <infos>
+        <lieu>La conférence aura lieu à l'ISEP
+            Amadou Trawaré de Diamniadio
+        </lieu>
+    </infos>
+    <presentations>
+        <presentation>
+            <titre>Intelligence artificielle</titre>
+            <date>2026-11-15</date>
+            <description>Présentation sur les applications de l'intelligence artificielle.</description>
+
+            <communicationsOrales>
+                <communication>
+                    <titre>Les bases de l'intelligence artificielle</titre>
+                    <auteur ref="A1" />
+                    <article ref="AR1" />
+                </communication>
+            </communicationsOrales>
+        </presentation>
+
+        <presentation>
+            <titre>Developpement logiciel</titre>
+            <date>2026-11-16</date>
+            <description>Présentation sur les nouvelles méthodes de développement logiciel.</description>
+
+            <communicationsOrales>
+                <communication>
+                    <titre>Les bonnes pratiques de programmation</titre>
+                    <auteur ref="A2" />
+                    <auteur ref="A3" />
+                    <article ref="AR2" />
+                </communication>
+            </communicationsOrales>
+        </presentation>
+    </presentations>
+
+    <auteurs>
+        <auteur id="A1">
+            <nom>Fall</nom>
+            <prenom>Awa</prenom>
+            <dateNaissance>2002-05-10</dateNaissance>
+            <siteWeb>https://exemple.com/awa-fall</siteWeb>
+            <biographie>Specialiste en intelligence artificielle.</biographie>
+        </auteur>
+
+        <auteur id="A2">
+            <nom>Ndiaye</nom>
+            <prenom>Mamadou</prenom>
+            <dateNaissance>2000-03-20</dateNaissance>
+            <photo>mamadou.jpg</photo>
+            <biographie>Developpeur logiciel.</biographie>
+        </auteur>
+
+        <auteur id="A3">
+            <nom>Sow</nom>
+            <prenom>Fatou</prenom>
+            <dateNaissance>2001-08-12</dateNaissance>
+            <siteWeb>https://exemple.com/fatou-sow</siteWeb>
+            <biographie>Chercheuse en informatique.</biographie>
+        </auteur>
+    </auteurs>
+
+    <articles>
+        <article id="AR1">
+            <titre>Introduction a l'intelligence artificielle</titre>
+            <auteurs>
+                <auteur ref="A1" />
+            </auteurs>
+            <affiliations>
+                <affiliation>ISEP de Diamniadio</affiliation>
+            </affiliations>
+            <resume>Presentation des concepts fondamentaux de l'intelligence artificielle.</resume>
+            <travailPropose>Etudier les applications de l'IA.</travailPropose>
+            <conclusion>L'intelligence artificielle offre de nombreuses possibilites.</conclusion>
+        </article>
+
+        <article id="AR2">
+            <titre>Les bonnes pratiques de programmation</titre>
+            <auteurs>
+                <auteur ref="A2" />
+                <auteur ref="A3" />
+            </auteurs>
+            <affiliations>
+                <affiliation>ISEP de Diamniadio</affiliation>
+            </affiliations>
+            <resume>Etude des methodes pour produire un code lisible et maintenable.</resume>
+            <travailPropose>Appliquer les bonnes pratiques dans les projets logiciels.</travailPropose>
+            <conclusion>Un code bien structure facilite la maintenance.</conclusion>
+        </article>
+    </articles>
+
+</conference>

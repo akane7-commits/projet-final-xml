@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commande numéro='CMD-2026-0117' devise='XOF'>
+    <client email='aissatou@example.sn'>Aissatou Ba &amp; Frères</client>
+    <evenement code='CONCERT-ONS'>
+        <titre>concert de l'Orchestre nationale</titre>
+        <lieu>Grand Theatre Doudou Ndiaye Coumba Rose</lieu>
+        <date>2026-12-12</date>
+        <heure>20H30mn00</heure>
+        
+    </evenement>
+    <billets>
+        <billet catégorie='VIP'>
+            <place>A12</place>
+            <prix>15000</prix>
+        </billet>
+        <billet catégorie='STANDARD'> 
+            <place>C07</place>
+            <prix>5000</prix>
+
+        </billet>
+        <billet catégorie='ENFANT'>
+            <place>C08</place>
+            <prix>2500</prix>
+            <conditions>Résérvé aux moins de 12 ans(age &lt;12)&amp;accompagnés
+
+            </conditions>
+        </billet>
+
+
+
+
+    </billets>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</commande>

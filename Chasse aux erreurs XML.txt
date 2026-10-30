@@ -1,0 +1,8 @@
+Chasse aux erreurs XML     
+                            corrections
+a/Balises appariées       |<prenom>Awa</prenom>
+b/carracteres reservés    |<t>Tom &amp; Jerry</t>
+c/ Attributs              |<facture numero='2026-001'>
+d/Imbrications strictes   |<a><b>texte</b></a>
+e/Racine unique           |<r><facture/><client/></r>
+f/carracteres reservés    |<a> Si &lt 3</a>

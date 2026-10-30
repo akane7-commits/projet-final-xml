@@ -1,0 +1,16 @@
+1/L’élément racine est <promotion>.
+2/Il y a 16 éléments et 11 attributs.
+3/La profondeur est de 4 niveaux
+4/L’élément vide est <notes/> de l’étudiant L1-003.
+5/Il y a 9 nœuds texte non blancs.
+6/La note de l’étudiant L1-002 est 9.75.
+7/Arbre de l’étudiant L1-003 :
+etudiant (matricule="L1-003")
+├── nom
+│   └── Sow
+├── prenom
+│   └── Fatou
+└── notes (vide)
+8/module et coef donnent des informations  sur la note, 
+tandis que nom est un élément qui contient le nom de l’étudiant.
+ Le commentaire se situe avant l’élément racine <promotion>.

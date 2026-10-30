@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Catégories autorisées -->
+    <xs:simpleType name="CategoryType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="sweet"/>
+            <xs:enumeration value="salty"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Prix strictement positif, avec deux chiffres après le point -->
+    <xs:simpleType name="PriceType">
+        <xs:restriction base="xs:decimal">
+            <xs:minExclusive value="0"/>
+            <xs:fractionDigits value="2"/>
+            <xs:pattern value="[0-9]+\.[0-9]{2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Calories : entier compris entre 100 et 2000 inclus -->
+    <xs:simpleType name="CaloriesType">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="100"/>
+            <xs:maxInclusive value="2000"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Prix avec attribut unit obligatoire -->
+    <xs:complexType name="PriceWithUnitType">
+        <xs:simpleContent>
+            <xs:extension base="PriceType">
+                <xs:attribute name="unit"
+                              type="xs:string"
+                              use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <!-- Structure d'un plat -->
+    <xs:complexType name="FoodType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="category" type="CategoryType"/>
+            <xs:element name="price" type="PriceWithUnitType"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="calories" type="CaloriesType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Menu : un ou plusieurs plats -->
+    <xs:element name="breakfast_menu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="food"
+                            type="FoodType"
+                            minOccurs="1"
+                            maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
