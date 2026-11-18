@@ -1,0 +1,11 @@
+1. Afficher le titre du livre :
+/document/titre
+
+2. Afficher les noms des auteurs :
+/document/auteur
+
+3. Afficher l'année de publication :
+/document/annee
+
+4. Afficher le prix du livre :
+/document/prix
